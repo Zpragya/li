@@ -1,0 +1,88 @@
+/*
+ * Project : Holiday Wish List
+ * Author - Aanya
+ */
+
+.snowman {
+	background-image:url("../images/snowman.jpg");
+	background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#tximg{
+	background-image:url("../images/blank.jpg");
+	position: fixed;
+	left: 50%;
+	top: 0%;
+	z-index: -1;
+	padding-right:10%;
+	padding-left:5%;
+	height:100%;
+	opacity: 0.9;
+	color:green;
+}
+
+.inputbox{
+	margin:3%;
+	margin-bottom:1%;
+	color: black;
+}
+
+.send{
+	width: 100%;
+	height: 60%;
+	left: 10%;
+	position: fixed;
+	-webkit-animation: mymove infinite; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+	animation: mymove;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	opacity: 0.9;
+}
+
+.bg_send  {
+	background-image:url("../images/moon.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position:initial;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: -90%;}
+    to {left: 10%;}
+}
+
+@keyframes mymove {
+    from {left: -90%;}
+    to {left: 10%;}
+}
+
+
+h2 {
+	color: #0000e5;
+}
+
+h4{
+	color: maroon;
+}
+
+@media screen and (max-width: 500px) {
+#tximg{
+	background-image:url("../images/blank.jpg");
+	position: fixed;
+	left: 10%;
+	top: 0%;
+	z-index: -1;
+	padding-right:10%;
+	padding-left:5%;
+	height:100%;
+	opacity: 0.9;
+	color:green;
+}
+}
