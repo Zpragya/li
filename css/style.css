@@ -2,7 +2,9 @@
  * Project : Holiday Wish List
  * Author - Aanya
  */
-
+html{
+	height:auto;
+}
 .snowman {
 	background-image:url("../images/snowman.jpg");
 	background-repeat: no-repeat;
@@ -23,6 +25,7 @@
 	height:100%;
 	opacity: 0.9;
 	color:green;
+	overflow: scroll;
 }
 
 .inputbox{
