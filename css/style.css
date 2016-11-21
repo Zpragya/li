@@ -22,10 +22,12 @@ html{
 	z-index: -1;
 	padding-right:10%;
 	padding-left:5%;
+	padding-bottom:3%;
 	height:100%;
 	opacity: 0.9;
 	color:green;
 	overflow: scroll;
+	border-bottom: 1%;
 }
 
 .inputbox{
